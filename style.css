@@ -1,0 +1,25 @@
+.clock {
+  background-color: blue;
+  color: white;
+  width: 400px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.clock > span {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.clock > span > span {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+input {
+  padding: 15px;
+  margin: 20px;
+  font-size: 1.5em;
+}
